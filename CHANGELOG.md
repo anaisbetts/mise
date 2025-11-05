@@ -1,5 +1,48 @@
 # Changelog
 
+## [2025.11.3](https://github.com/jdx/mise/compare/v2025.11.2..v2025.11.3) - 2025-11-05
+
+### 📦 Registry
+
+- rename yt-dlp bin by @risu729 in [#6883](https://github.com/jdx/mise/pull/6883)
+- use aqua backend for slsa-verifier by @risu729 in [#6872](https://github.com/jdx/mise/pull/6872)
+- added devcontainer-cli by @moisesmorillo in [#6888](https://github.com/jdx/mise/pull/6888)
+- add amazon-ecs-cli by @ducvuongpham in [#6898](https://github.com/jdx/mise/pull/6898)
+- add helm-ls by @ldrouard in [#6899](https://github.com/jdx/mise/pull/6899)
+- add ubi backend and test for oxipng, change aqua backend by @ldrouard in [#6900](https://github.com/jdx/mise/pull/6900)
+
+### 🚀 Features
+
+- **(aqua)** support `Asset` template for cosign and slsa verification by @risu729 in [#6875](https://github.com/jdx/mise/pull/6875)
+- improve task info support with experimental_monorepo_root by @hverlin in [#6881](https://github.com/jdx/mise/pull/6881)
+
+### 🐛 Bug Fixes
+
+- **(config)** add `mise/config.local.toml` to config paths by @risu729 in [#6882](https://github.com/jdx/mise/pull/6882)
+
+### 📚 Documentation
+
+- **(security)** use long-form GPG key fingerprint in installation docs by @jdx in [#6885](https://github.com/jdx/mise/pull/6885)
+
+### New Contributors
+
+- @ducvuongpham made their first contribution in [#6898](https://github.com/jdx/mise/pull/6898)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (5)
+
+- [`minc-org/minc`](https://github.com/minc-org/minc)
+- [`neilpa/yajsv`](https://github.com/neilpa/yajsv)
+- [`nmstate/nmstate`](https://github.com/nmstate/nmstate)
+- [`openshift-pipelines/pipelines-as-code`](https://github.com/openshift-pipelines/pipelines-as-code)
+- [`pete911/certinfo`](https://github.com/pete911/certinfo)
+
+#### Updated Packages (3)
+
+- [`amir20/dtop`](https://github.com/amir20/dtop)
+- [`borgbackup/borg`](https://github.com/borgbackup/borg)
+- [`caarlos0/svu`](https://github.com/caarlos0/svu)
 ## [2025.11.2](https://github.com/jdx/mise/compare/v2025.11.1..v2025.11.2) - 2025-11-03
 
 ### 📦 Registry
